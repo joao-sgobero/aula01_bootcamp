@@ -1,7 +1,7 @@
-# Exercício 01: Crie um programa que o usuário digite seu nome e retorne o número de caractéres
+#Exercise 01: Remove spaces from the name to count only the letters
 
-nome = input("Digite seu nome: ")
-print(len(nome))
+name = input("Enter your name: ").replace(" ", "")
+print(f"Your name has {len(name)} letters.")
 
 #Exercício 02: Crie um programa onde o usuário digita dois valores e aparece a soma desses valores
 
