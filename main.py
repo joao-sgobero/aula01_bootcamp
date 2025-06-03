@@ -3,10 +3,10 @@
 name = input("Enter your name: ").replace(" ", "")
 print(f"Your name has {len(name)} letters.")
 
-#Exercício 02: Crie um programa onde o usuário digita dois valores e aparece a soma desses valores
+#Exercise 02: Ask the user to input two numbers and return their sum
 
-valor_01 = int(input("Digite o primeiro valor: "))
-valor_02 = int(input("Digite o segundo valor: "))
+value_01 = int(input("Enter the first number: "))
+value_02 = int(input("Enter the second number: "))
 
-soma = valor_01 + valor_02
-print(soma)
+result = value_01 + value_02
+print(f"The sum of the two numbers is {result}.")
